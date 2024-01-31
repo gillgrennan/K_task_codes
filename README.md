@@ -23,3 +23,11 @@ this tutorial was helpful in visualizing what to do with multiple runs of the sa
 
 nilearn user page as a whole is a godsend 
 
+
+Codes: 
+Kdata_practice is just me working through the above tutorials, trying to adjust it for the Flanker practice data for 1 subject, 2 runs, very messy but included in case I want to reference any of the visualization techniques we used there for later stages 
+
+firstlevel_flanker_complete is the completed / cleaned up version of loading in func data, creating / convolving a design matrix for each run, fitting the glm, and visualizing the output 
+
+firstlevel_kdata is the same process as above but adjusted for the selfother task -- will need to test run with kdata subject to finalize formatting and then make the whole thing a for loop to loop through all subjects (can use layout.get_subjects()) 
+
